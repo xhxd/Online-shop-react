@@ -1,0 +1,33 @@
+.machineOptions {
+  padding: 25px 10px;
+  flex: 0.33;
+  position: fixed;
+}
+
+.machineOptions > div {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  cursor: pointer;
+  border-bottom: 1px solid lightgray;
+}
+
+.deactive:hover {
+  background-color: lightgrey;
+  border-radius: 15px;
+}
+
+.deactive > h4 {
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+.active__row > h4 {
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+.active__row {
+  background-color: lightgrey;
+  border-radius: 15px;
+}

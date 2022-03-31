@@ -1,0 +1,8 @@
+.packingMachines {
+  background-color: transparent;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: auto;
+  margin: 40px;
+}

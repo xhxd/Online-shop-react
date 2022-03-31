@@ -1,0 +1,75 @@
+.all__equipments {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  flex-direction: row;
+  padding: 0 20px;
+  justify-content: center;
+}
+
+.food__equipment {
+  margin: 20px;
+}
+
+.equipment__image {
+  width: 250px;
+  height: 250px;
+  border: 1px solid #e9e9e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.equipment__image:hover {
+  border: 1px solid #e31e25;
+}
+
+.equipment__image > img {
+  width: 230px;
+}
+
+.equipment__image:hover > img {
+  width: 250px;
+}
+
+.equipment__image:hover > img {
+  -webkit-animation-name: hoverEffect;
+  -webkit-animation-duration: 0.5s;
+  animation-name: hoverEffect;
+  animation-duration: 0.5s;
+}
+
+@-webkit-keyframes hoverEffect {
+  from {
+    width: 230px;
+  }
+  to {
+    width: 250px;
+  }
+}
+
+@keyframes hoverEffect {
+  from {
+    width: 230px;
+  }
+  to {
+    width: 250px;
+  }
+}
+
+.equipment__name {
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 60px;
+}
+
+.equipment__name > p {
+  font-size: 21px;
+  color: #7a7a7a;
+}
+
+.equipment__image:hover + .equipment__name > p {
+  color: #e31e25;
+}
